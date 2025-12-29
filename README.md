@@ -209,6 +209,15 @@ This project is for educational purposes.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author JCDiaz
 
 Created with FastMCP and OpenAI integration.
+
+diagrams
+<img width="831" height="358" alt="Captura de pantalla 2025-12-29 225733" src="https://github.com/user-attachments/assets/d6ae20a7-2e28-4195-848b-10cbed63da52" />
+
+
+<img width="1340" height="987" alt="Captura de pantalla 2025-12-29 225634" src="https://github.com/user-attachments/assets/2fab07b0-9e41-41db-bb1c-a211096bfc10" />
+
+
+
