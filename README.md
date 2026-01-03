@@ -9,7 +9,8 @@ A complete Model Context Protocol (MCP) implementation that enables AI assistant
 ## 🌟 Features
 
 - **MCP Server** - FastMCP-based server exposing Gmail operations
-- **MCP Client** - Python client integrating OpenAI GPT-4o-mini with Gmail tools
+- **MCP Client** - Python client integrating OpenAI GPT-4o-mini with Gmail toolsç
+- **MCP Client** - also with Ollama Now
 - **Streamlit Frontend** - Web interface for the MCP client
 - **Gmail Integration** - List, send, and manage emails
 - **Resource Templates** - Dynamic PDF manual access
@@ -26,10 +27,10 @@ The server exposes Gmail functionality through the MCP protocol:
 - **Resource Templates**: PDF manual access with versioning
 - **Prompts**: Email summarization, professional email composition, automation workflows
 
-### 2. **MCP Client** (`client.py`)
+### 2. **MCP Client** (`client.py`)  or (`client_ollama.py`)
 The client bridges OpenAI and the MCP server:
 - Connects to the MCP server using FastMCP Client
-- Converts MCP tools to OpenAI function calling format
+- Converts MCP tools to OpenAI function calling format or Ollama format
 - Handles chat completions with tool execution
 - Manages resources and prompts
 
@@ -47,6 +48,7 @@ Frontend interface providing:
 - **Python 3.10+**
 - **OpenAI API Key** - Get from [OpenAI Platform](https://platform.openai.com/api-keys)
 - **Google Cloud Credentials** - Create OAuth 2.0 credentials in [Google Cloud Console](https://console.cloud.google.com/)
+- **Ollama** - get From (https://ollama.com/)
 
 ---
 
@@ -67,6 +69,7 @@ source .venv/bin/activate  # Linux/Mac
 pip install openai fastmcp python-dotenv
 pip install streamlit
 pip install google-auth-oauthlib google-api-python-client PyPDF2
+pip install ollama
 ```
 
 ---
@@ -209,6 +212,23 @@ This project is for educational purposes.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author JCDiaz
 
 Created with FastMCP and OpenAI integration.
+
+diagrams
+<img width="831" height="358" alt="Captura de pantalla 2025-12-29 225733" src="https://github.com/user-attachments/assets/d6ae20a7-2e28-4195-848b-10cbed63da52" />
+
+
+<img width="1340" height="987" alt="Captura de pantalla 2025-12-29 225634" src="https://github.com/user-attachments/assets/2fab07b0-9e41-41db-bb1c-a211096bfc10" />
+
+
+
+<img width="1230" height="1008" alt="Captura de pantalla 2025-12-29 224828" src="https://github.com/user-attachments/assets/30f914f9-4544-4b5f-82ff-aeddf746a564" />
+
+
+
+
+
+
+
