@@ -1,5 +1,5 @@
 import streamlit as st
-from client import GmailMCPClient
+from client_ollama import GmailMCPClient_Ollama
 import asyncio
 
 st.set_page_config(
@@ -11,13 +11,13 @@ st.set_page_config(
 # Inicializar cliente
 @st.cache_resource
 def get_client():
-    return GmailMCPClient()
+    return GmailMCPClient_Ollama()
 
 client = get_client()
 
 # Titulo
 st.title("📧 Gmail Assistant con MCP de JCDiaz")
-st.markdown("Asistente inteligente para gestionar tu Gmail usando GPT-4o-mini")
+st.markdown("Asistente inteligente para gestionar tu Gmail usando Ollama")
 
 # Sidebar para mostrar informacion del cliente MCP
 with st.sidebar:
@@ -172,4 +172,4 @@ if prompt := st.chat_input("Escribe tu mensaje..."):
 
 # Footer
 st.divider()
-st.caption("Gmail Assistant powered by MCP + GPT-4o-mini")
+st.caption("Gmail Assistant powered by MCP & Ollama - by JCDiaz")
