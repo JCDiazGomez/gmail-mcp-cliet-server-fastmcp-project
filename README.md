@@ -246,8 +246,6 @@ diagrams
 <img width="1230" height="1008" alt="Captura de pantalla 2025-12-29 224828" src="https://github.com/user-attachments/assets/30f914f9-4544-4b5f-82ff-aeddf746a564" />
 
 
-<img width="3300" height="3284" alt="image" src="https://github.com/user-attachments/assets/4713b86f-bb8d-417d-aa28-491cff4b9c6d" />
-
 
 
 
