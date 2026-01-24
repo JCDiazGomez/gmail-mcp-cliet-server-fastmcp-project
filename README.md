@@ -4,6 +4,25 @@
 
 A complete Model Context Protocol (MCP) implementation that enables AI assistants to interact with Gmail through a FastMCP server, with a Streamlit web interface for easy interaction.
 
+MCP Server + MCP Client for Gmail and OpenAI/
+├── .venv/                    ← Entorno virtual (Python aislado)
+│   ├── Scripts/
+│   │   ├── Activate.ps1     ← Script para activar en PowerShell
+│   │   └── python.exe       ← Python del entorno virtual
+│   └── Lib/
+│       └── site-packages/   ← Paquetes instalados
+│           ├── mcp/         ← Librería MCP (types.py está aquí)
+│           ├── openai/      ← Cliente OpenAI
+│           ├── google-api-python-client/
+│           └── fastmcp/
+│
+├── .env                      ← Variables de entorno (OPENAI_API_KEY)
+├── credentials.json          ← Credenciales OAuth de Google
+├── token.pickle              ← Token de autenticación guardado
+├── client.py                 ← MCP Client (OpenAI)
+├── gmail_mcp_server.py       ← MCP Server (Gmail)
+└── app_openAI.py            ← Aplicación principal
+
 ---
 
 ## 🌟 Features
