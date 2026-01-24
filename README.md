@@ -4,24 +4,24 @@
 
 A complete Model Context Protocol (MCP) implementation that enables AI assistants to interact with Gmail through a FastMCP server, with a Streamlit web interface for easy interaction.
 
-MCP Server + MCP Client for Gmail and OpenAI/
-├── .venv/                    ← Entorno virtual (Python aislado)
+MCP Server + MCP Client for Gmail and OpenAI
+├── .venv/                    ← Virtual environment (isolated Python environment)
 │   ├── Scripts/
-│   │   ├── Activate.ps1     ← Script para activar en PowerShell
-│   │   └── python.exe       ← Python del entorno virtual
+│   │   ├── Activate.ps1      ← Script to activate the venv in PowerShell
+│   │   └── python.exe        ← Python executable inside the virtual environment
 │   └── Lib/
-│       └── site-packages/   ← Paquetes instalados
-│           ├── mcp/         ← Librería MCP (types.py está aquí)
-│           ├── openai/      ← Cliente OpenAI
+│       └── site-packages/    ← Installed Python packages
+│           ├── mcp/          ← MCP library (types.py is located here)
+│           ├── openai/       ← OpenAI client library
 │           ├── google-api-python-client/
 │           └── fastmcp/
 │
-├── .env                      ← Variables de entorno (OPENAI_API_KEY)
-├── credentials.json          ← Credenciales OAuth de Google
-├── token.pickle              ← Token de autenticación guardado
-├── client.py                 ← MCP Client (OpenAI)
-├── gmail_mcp_server.py       ← MCP Server (Gmail)
-└── app_openAI.py            ← Aplicación principal
+├── .env                      ← Environment variables (e.g., OPENAI_API_KEY)
+├── credentials.json          ← Google OAuth credentials file
+├── token.pickle              ← Saved authentication token
+├── client.py                 ← MCP Client (OpenAI integration)
+├── gmail_mcp_server.py       ← MCP Server (Gmail integration)
+└── app_openAI.py             ← Main application entry point
 
 ---
 
@@ -235,15 +235,6 @@ This project is for educational purposes.
 
 Created with FastMCP and OpenAI integration.
 
-diagrams
-<img width="831" height="358" alt="Captura de pantalla 2025-12-29 225733" src="https://github.com/user-attachments/assets/d6ae20a7-2e28-4195-848b-10cbed63da52" />
-
-
-<img width="1340" height="987" alt="Captura de pantalla 2025-12-29 225634" src="https://github.com/user-attachments/assets/2fab07b0-9e41-41db-bb1c-a211096bfc10" />
-
-
-
-<img width="1230" height="1008" alt="Captura de pantalla 2025-12-29 224828" src="https://github.com/user-attachments/assets/30f914f9-4544-4b5f-82ff-aeddf746a564" />
 
 
 
